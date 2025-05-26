@@ -12,21 +12,8 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white shadow-sm">
       <div className="container mx-auto px-4">
-        {/* 첫 번째 행 */}
         <div className="flex items-center justify-between py-4">
           <div className="text-red-500 text-2xl font-bold">Airbnb</div>
-
-          <nav className="hidden md:flex items-center gap-6">
-            <a href="#" className="font-medium">
-              숙소
-            </a>
-            <a href="#" className="text-gray-600">
-              체험
-            </a>
-            <a href="#" className="text-gray-600">
-              온라인 체험
-            </a>
-          </nav>
 
           <div className="flex items-center gap-4">
             <button className="text-sm font-medium">
@@ -98,22 +85,3 @@ export default function Header() {
     </header>
   );
 }
-
-// const Header = () => {
-//   return (
-//     <>
-//       <div>airbnb</div>
-//       <ul>
-//         <li>숙소</li>
-//         <li>체험</li>
-//       </ul>
-//       <ul>
-//         <li>당신의 공간을 에어비앤비하세요</li>
-//         <li>번역</li>
-//         <li>= 사용자</li>
-//       </ul>
-//     </>
-//   );
-// };
-
-// export default Header;
