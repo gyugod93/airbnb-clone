@@ -1,5 +1,7 @@
 //SSR렌더링 + 무한스크롤롤
 const AirBnbItem = () => {
+  console.log("MongoDB 연결 테스트");
+
   return (
     <>
       <div>사진</div>
